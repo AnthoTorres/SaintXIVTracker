@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4B8EFD24B5003C00D8ABDA /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B8EFC24B5003C00D8ABDA /* Library.swift */; };
 		8E91903424AD285600B4BF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91903324AD285600B4BF78 /* SceneDelegate.swift */; };
+		8E91903724AE625A00B4BF78 /* Nightfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91903624AE625A00B4BF78 /* Nightfall.swift */; };
+		8E91903C24AE6E0E00B4BF78 /* NightfallSpecificItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91903B24AE6E0E00B4BF78 /* NightfallSpecificItem.swift */; };
+		8E91903E24AE6EA700B4BF78 /* Strike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91903D24AE6EA700B4BF78 /* Strike.swift */; };
 		8ED30A5A23C83D65009E65F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED30A5923C83D65009E65F3 /* AppDelegate.swift */; };
 		8ED30A6123C83D65009E65F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED30A5F23C83D65009E65F3 /* Main.storyboard */; };
 		8ED30A6323C83D6E009E65F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED30A6223C83D6E009E65F3 /* Assets.xcassets */; };
@@ -24,7 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E4B8EFC24B5003C00D8ABDA /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		8E91903324AD285600B4BF78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E91903624AE625A00B4BF78 /* Nightfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightfall.swift; sourceTree = "<group>"; };
+		8E91903B24AE6E0E00B4BF78 /* NightfallSpecificItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightfallSpecificItem.swift; sourceTree = "<group>"; };
+		8E91903D24AE6EA700B4BF78 /* Strike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strike.swift; sourceTree = "<group>"; };
 		8ED30A5623C83D65009E65F3 /* SaintXIVTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaintXIVTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED30A5923C83D65009E65F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED30A6023C83D65009E65F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +61,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E91903A24AE6DA500B4BF78 /* LootModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E91903624AE625A00B4BF78 /* Nightfall.swift */,
+				8E91903B24AE6E0E00B4BF78 /* NightfallSpecificItem.swift */,
+				8E91903D24AE6EA700B4BF78 /* Strike.swift */,
+				8E4B8EFC24B5003C00D8ABDA /* Library.swift */,
+			);
+			path = LootModels;
+			sourceTree = "<group>";
+		};
 		8ED30A4D23C83D65009E65F3 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +95,7 @@
 				8ED30A7023C83DB0009E65F3 /* ViewControllers */,
 				8ED30A6F23C83DA7009E65F3 /* ModelControllers */,
 				8ED30A6E23C83DA0009E65F3 /* Models */,
+				8E91903A24AE6DA500B4BF78 /* LootModels */,
 				8ED30A6D23C83D7E009E65F3 /* Resources */,
 			);
 			path = SaintXIVTracker;
@@ -205,13 +225,17 @@
 				8ED30A8123C85E47009E65F3 /* Utility.swift in Sources */,
 				8ED30A7F23C85D0D009E65F3 /* GuardianTableViewController.swift in Sources */,
 				8ED30A7B23C84124009E65F3 /* TrackerTableViewController.swift in Sources */,
+				8E91903724AE625A00B4BF78 /* Nightfall.swift in Sources */,
 				8ED30A5A23C83D65009E65F3 /* AppDelegate.swift in Sources */,
 				8ED30A7723C83F88009E65F3 /* Guardian.swift in Sources */,
 				8ED30A7923C83FAD009E65F3 /* Stats.swift in Sources */,
 				8ED30A7323C83E29009E65F3 /* APIService.swift in Sources */,
+				8E91903C24AE6E0E00B4BF78 /* NightfallSpecificItem.swift in Sources */,
 				8E91903424AD285600B4BF78 /* SceneDelegate.swift in Sources */,
 				8ED30A8323C865CD009E65F3 /* StatsTableViewController.swift in Sources */,
 				8ED30A7523C83EE2009E65F3 /* ApiResponse.swift in Sources */,
+				8E4B8EFD24B5003C00D8ABDA /* Library.swift in Sources */,
+				8E91903E24AE6EA700B4BF78 /* Strike.swift in Sources */,
 				8ED30A7D23C84279009E65F3 /* Platform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

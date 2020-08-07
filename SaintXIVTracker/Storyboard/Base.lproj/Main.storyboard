@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2bp-2M-jQi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2bp-2M-jQi">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Saint-XIV Tracker-->
         <scene sceneID="kFm-ir-YC8">
             <objects>
-                <tableViewController id="dnm-hV-OGB" customClass="TrackerTableViewController" customModule="Destiny2StatTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="dnm-hV-OGB" customClass="TrackerTableViewController" customModule="SaintXIVTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OVz-0F-qls">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
         <!--Guardian Table View Controller-->
         <scene sceneID="LQY-Uf-EK8">
             <objects>
-                <tableViewController storyboardIdentifier="GuardianVC" id="DAt-5E-iFB" customClass="GuardianTableViewController" customModule="Destiny2StatTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="GuardianVC" id="DAt-5E-iFB" customClass="GuardianTableViewController" customModule="SaintXIVTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CXk-d1-8GY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +125,7 @@
         <!--Stats Table View Controller-->
         <scene sceneID="cFU-am-DYB">
             <objects>
-                <tableViewController storyboardIdentifier="StatsVC" id="LmP-v3-igI" customClass="StatsTableViewController" customModule="Destiny2StatTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="StatsVC" id="LmP-v3-igI" customClass="StatsTableViewController" customModule="SaintXIVTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cVn-Q9-R0V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,6 +245,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="sparkles" catalog="system" width="56" height="64"/>
+        <image name="sparkles" catalog="system" width="112" height="128"/>
     </resources>
 </document>
